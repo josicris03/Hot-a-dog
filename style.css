@@ -1,0 +1,91 @@
+html {
+    font-family: helvetica;
+    background-color: #ddd;
+}
+
+.container {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    margin: 50px;
+    background-color: #fff;
+}
+
+/* cabeçalho */
+
+.cabeçalho {
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 40px;
+}
+
+.paragrafo-principal {
+    font-style: italic;
+}
+
+/* Corpo */
+
+.img-destaque {
+    text-align: center;
+    margin-top: 30px;
+}
+.img-destaque figure img{
+    border-radius: 10%;
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+
+}
+
+/* Biografia container*/
+
+.biografia-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+/* citações */
+
+.frase-container{
+    background-color: #DDD;
+    padding: 30px;
+    }
+
+.frase-container blockquote{
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.frase-container p {
+    font-style: italic;
+}
+
+/* curiosidades */
+
+.curiosidades-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosidades-container li {
+    height: 30px;
+}
+/*imagens do Hot*/
+
+.img-galeria{
+    text-align: center;
+}
+
+.img-galeria figure img{
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
